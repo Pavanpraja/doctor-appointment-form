@@ -41,6 +41,8 @@ const DocForm = () => {
                 name="phone"
                 id="phone"
                 className="p-[0.2rem] border-[0.1rem] [box-shadow:0rem_0.1rem_.1rem_0rem_gray] border-black w-[16rem]"
+                minLength={10}
+                maxLength={13}
                 required
               />
             </div>
