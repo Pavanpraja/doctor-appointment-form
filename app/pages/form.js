@@ -29,6 +29,7 @@ const DocForm = () => {
               name="name"
               id="name"
               className="p-[0.2rem] border-[0.1rem] [box-shadow:0rem_0.1rem_.1rem_0rem_gray] border-black"
+              required
             />
           </div>
 
@@ -40,15 +41,17 @@ const DocForm = () => {
                 name="phone"
                 id="phone"
                 className="p-[0.2rem] border-[0.1rem] [box-shadow:0rem_0.1rem_.1rem_0rem_gray] border-black w-[16rem]"
+                required
               />
             </div>
             <div className="flex flex-col gap-[0.3rem] ml-[11rem] w-[4rem]">
-              <label htmlFor="phone">Age.*</label>
+              <label htmlFor="age">Age.*</label>
               <input
-                type="tel"
-                name="phone"
-                id="phone"
+                type="number"
+                name="age"
+                id="age"
                 className="p-[0.2rem] border-[0.1rem] [box-shadow:0rem_0.1rem_.1rem_0rem_gray] border-black"
+                required
               />
             </div>
           </div>
